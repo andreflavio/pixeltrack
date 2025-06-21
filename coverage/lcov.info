@@ -1,0 +1,17 @@
+TN:
+SF:src\converterPontos.js
+FN:1,converterPontos
+FNF:1
+FNH:1
+FNDA:3,converterPontos
+DA:2,3
+DA:3,2
+DA:5,1
+DA:7,1
+LF:4
+LH:4
+BRDA:2,0,0,2
+BRDA:2,0,1,1
+BRF:2
+BRH:2
+end_of_record
