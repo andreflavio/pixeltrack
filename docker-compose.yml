@@ -1,10 +1,11 @@
 services:
   app:
     image: node:18
-    command: sh -c "npm install && npm start"
+    command: sh -c "mkdir -p /app/logs && chmod -R 777 /app/logs && npm install && npm start"
     working_dir: /app
     volumes:
       - ./src:/app
+      - ./logs:/app/logs
     ports:
       - "3000:3000"
   prometheus:
@@ -27,6 +28,6 @@ services:
     image: grafana/promtail
     volumes:
       - ./promtail-config.yml:/etc/promtail/config.yml
-      - /var/log:/var/log
+      - ./logs:/app/logs
     depends_on:
       - loki
