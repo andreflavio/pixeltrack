@@ -1,0 +1,24 @@
+{
+  "name": "atividade",
+  "version": "1.0.0",
+  "description": "Projeto de painel interativo para dados estatísticos de eSports.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^30.0.2"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coverageReporters": [
+      "text",
+      "html",
+      "lcov"
+    ]
+  }
+}
