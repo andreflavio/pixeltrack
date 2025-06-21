@@ -33,3 +33,7 @@ Projeto de painel interativo para dados estatísticos de eSports.
 ![Pull Request](pr_screenshot.png)
 
 ![Workflow Passando](Workflowpassando.png)
+
+### Cobertura de Testes
+
+Cobertura atual: 100% (Statements, Branches, Functions, Lines). Veja o [Relatório Completo](coverage/lcov-report/index.html).

@@ -11,5 +11,9 @@
   "license": "ISC",
   "devDependencies": {
     "jest": "^30.0.2"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coverageReporters": ["text", "html"]
   }
 }
