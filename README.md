@@ -37,3 +37,10 @@ Projeto de painel interativo para dados estatísticos de eSports.
 ### Cobertura de Testes
 
 Cobertura atual: 100% (Statements, Branches, Functions, Lines). Veja o [Relatório Completo](coverage/lcov-report/index.html).
+
+### Monitoramento e Logging
+
+A aplicação usa Docker Compose com Prometheus, Grafana, Loki e Promtail. Acesse o dashboard em [http://localhost:3001](http://localhost:3001). Capturas:
+
+- ![Dashboard Grafana](grafana_dashboard.png)
+- ![Logs Promtail](promtail_logs.png)
