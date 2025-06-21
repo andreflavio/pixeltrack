@@ -44,3 +44,12 @@ A aplicação usa Docker Compose com Prometheus, Grafana, Loki e Promtail. Acess
 
 - ![Dashboard Grafana](grafana_dashboard.png)
 - ![Logs Promtail](promtail_logs.png)
+
+## Deploy Automatizado com Firebase
+
+Deploy contínuo via GitHub Actions para Firebase Hosting:
+
+![Deploy Bem-Sucedido](deploy_success.png)
+
+- Configuração: `firebase.json` e `deploy.yml`.
+- Rollback: `firebase hosting:rollback`.
