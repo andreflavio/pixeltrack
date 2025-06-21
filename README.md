@@ -26,8 +26,10 @@ Projeto de painel interativo para dados estatísticos de eSports.
 
 ### Fluxograma
 
-![Fluxograma do Git Flow](fluxograma.png)
+![Fluxograma do Git Flow](flowchart.png)
 
 ### Capturas de Tela
 
 ![Pull Request](pr_screenshot.png)
+
+![Workflow Passando](Workflowpassando.png)
